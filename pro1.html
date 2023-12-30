@@ -1,1 +1,48 @@
-how are you
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <main>
+    <feildset>
+        <form id="survey-form">
+            <label for="name" id="name-label">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required><br>
+
+            <label for="email" id="email-label">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required><br>
+
+            <label for="number" id="number-label">Age:</label>
+            <input type="number" id="number" placeholder="age" min="18" max="99" required><br>
+
+            <label for="dropdown">Which option best describes your current role?</label><br>
+            <select id="dropdown">
+                <option value="">select current role</option>
+                <option value="option2">student</option>
+                <option value="option3">Full Time Jop</option>
+                <option value="option4">Prefer not to say</option>
+                <option value="option5">others</option>
+           
+            </select>
+             
+			<br>
+            
+            <label for="radiobutton">Would you recommend freeCodeCamp to a friend?<br>
+            <label for="radiobutton"><input id="radio" type="radio" name="Wish" value="definitely"checked/> Definitely<label><br> 
+       <label for="radiobutton">     <input id="radio"type="radio" name="wish" value="maybe"> Maybe</label><br>
+        <label for="radiobutton"><input id ="radio" type="radio" name="Wish" value="Notsure">Not sure</label>
+			</label>
+            <br>
+ 
+        </feildset>
+    </main>
+
+</body>
