@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
   }
   
-  #header {
+  header {
     background-color: #333;
     color: white;
     text-align: center;
@@ -14,7 +14,7 @@ body {
     width: 100px; /* Adjust the width as needed */
   }
   
-  #nav-bar {
+  nav-bar {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
@@ -26,7 +26,7 @@ body {
     color: white;
   }
   
-  #nav-bar a:hover {
+  nav-bar a:hover {
     text-decoration: underline;
   }
   
@@ -34,7 +34,7 @@ body {
     padding: 2rem;
   }
   
-  #video {
+  video {
     width: 100%;
   }
   
@@ -43,12 +43,12 @@ body {
     max-width: 400px;
   }
   
-  #form label, #form input {
+  form label, form input {
     display: block;
     margin-bottom: 1rem;
   }
   
-  #submit {
+  submit {
     background-color: #333;
     color: white;
     padding: 0.5rem 1rem;
@@ -56,12 +56,12 @@ body {
     cursor: pointer;
   }
   
-  #submit:hover {
+  submit:hover {
     background-color: #555;
   }
   
   /* Sticky navbar */
-  #nav-bar {
+  nav-bar {
     position: sticky;
     top: 0;
     z-index: 100;
